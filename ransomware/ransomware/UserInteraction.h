@@ -1,0 +1,2 @@
+BOOL userInteraction();
+BOOL createCmdScript();

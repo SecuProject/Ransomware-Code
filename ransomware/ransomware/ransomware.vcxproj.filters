@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MgRSA">
+      <UniqueIdentifier>{51a38885-8c11-4794-b556-dc512784289f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MgFile">
+      <UniqueIdentifier>{25ee80d1-7bea-45a9-9667-3d0f7fa8b496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UserInteraction">
+      <UniqueIdentifier>{8bb11fa9-74f3-4baa-8e6d-56a955b36dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MgPersistence">
+      <UniqueIdentifier>{ab8dec69-d689-491a-ad2f-702e84bc989e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mgEncryption.c">
+      <Filter>Source Files\MgRSA</Filter>
+    </ClCompile>
+    <ClCompile Include="MgFile.c">
+      <Filter>Source Files\MgFile</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInteraction.c">
+      <Filter>Source Files\UserInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="MgPersistence.c">
+      <Filter>Source Files\MgPersistence</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="info.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mgEncryption.h">
+      <Filter>Source Files\MgRSA</Filter>
+    </ClInclude>
+    <ClInclude Include="MgFile.h">
+      <Filter>Source Files\MgFile</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInteraction.h">
+      <Filter>Source Files\UserInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="MgPersistence.h">
+      <Filter>Source Files\MgPersistence</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
